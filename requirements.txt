@@ -1,0 +1,28 @@
+# Install a CUDA-compatible PyTorch build separately first:
+# https://pytorch.org/get-started/locally/
+#
+# Then install:
+# python -m pip install -r requirements.txt
+
+# Core numerical / data handling
+numpy
+pandas
+scikit-learn
+Pillow
+opencv-python-headless
+
+# Deep learning model loading and training
+transformers
+safetensors
+ultralytics
+
+# Visualization and notebook utilities
+matplotlib
+tqdm
+PyYAML
+jupyter
+ipykernel
+
+# PyTorch and torchvision are intentionally not pinned here.
+# Install the build matching your OS, Python version, and CUDA runtime
+# using the official PyTorch installation selector.
